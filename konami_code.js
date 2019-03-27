@@ -7,6 +7,9 @@ function init() {
     console.log(event.keyCode)
     
     if (event.keycode === code[tracker])
+    tracker++
+    
+    }
   }
   
   document.addEventListener('keydown', onKeyDown)
@@ -19,5 +22,5 @@ if (event.keyCode) === code[tracker]) {
 } else {
   // tracker = 0 
 }
-
+}
 init()
