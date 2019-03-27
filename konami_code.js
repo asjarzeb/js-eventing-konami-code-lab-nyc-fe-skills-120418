@@ -9,7 +9,7 @@ function init() {
     if (e.which === code[tracker]) {
     tracker++
     } else {
-      tracker = 0 
+      tracker = 0
   }
   
   if (tracker === 10) {
