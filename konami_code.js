@@ -17,3 +17,5 @@ if (event.keyCode) === code[tracker]) {
 } else {
   // tracker = 0 
 }
+
+init()
