@@ -11,7 +11,7 @@ function init() {
       tracker = 0 
   }
   
-  if (tracker ===10) {
+  if (tracker === 10) {
     alert('Nice Job')
   }
   
@@ -19,3 +19,5 @@ function init() {
   document.addEventListener('keydown', onKeyDown)
 
 }
+
+init()
