@@ -6,7 +6,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   function onKeyDown(event) {
     
-    if (event.keycode === code[tracker]) {
+    if (event.keyCode === code[tracker]) {
     tracker++
     } else {
       tracker = 0 
