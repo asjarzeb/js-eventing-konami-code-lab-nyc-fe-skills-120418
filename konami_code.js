@@ -4,23 +4,18 @@ let tracker = 0
 function init() {
   // Write your JavaScript code inside the init() function
   function onKeyDown(event) {
-    console.log(event.keyCode)
     
-    if (event.keycode === code[tracker])
+    if (event.keycode === code[tracker]) {
     tracker++
-    
-    }
+    } else {
+      tracker = 0 
   }
   
+  if (tracker ===10) {
+    alert('Nice Job')
+  }
+  
+}
   document.addEventListener('keydown', onKeyDown)
 
-if (event.keyCode) === code[tracker]) {
-  
-// tracker = tracker + 1
-// if tracker === 9 -> then message
-
-} else {
-  // tracker = 0 
 }
-}
-init()
